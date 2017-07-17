@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## accepts a numeric vector of numbers and creates a square matrix out of them. sets the inverse to NULL 
 
 makeCacheMatrix <- function(x = numeric()) {
 			n<-sqrt(length(x))
@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = numeric()) {
 }
 
 
-## Write a short comment describing this function
+## finds the inverse of the matrix useing solve(). Checks for cached data if present and prints it.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
